@@ -10,7 +10,7 @@ Serwer jest napisany na Pythonie. Program serweru pobiera zewnętrzny IP adres k
 `docker run --name server -p 80:7000 httpserver:v1`
 
 - dostęp do informacji wygenerowanych w trakcie uruchamiania kontenera
-`docker logs tcpserver`
+`docker logs server`
 
 - sprawdzenie ile warstw posiada obraz
 `docker image inspect  httpserver:v1 | jq '.[].RootFS.Layers'`
