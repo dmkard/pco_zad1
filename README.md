@@ -16,7 +16,7 @@ Serwer jest napisany na Pythonie. Program serweru pobiera zewnętrzny IP adres k
 `docker image inspect  httpserver:v1 | jq '.[].RootFS.Layers'`
 *Obraz posiada 7 warstw.*
 
-![]https://github.com/dmkard/pco_zad1/blob/main/Resources/screenshot.png)
+![](https://github.com/dmkard/pco_zad1/blob/main/Resources/screenshot.png)
 
 # Zadanie 4
 W płatnych subskrypcja DockerHub daje możliwość na podpinanie konta GitHub do konta DockerHub. Takie podpięcie daje możliwośc do wskazania brahchu, przy commicie do którego musi być odpalony auto build. Jest też możliwosć wskazania tagu obrazu po auto buildzie. Źródło: https://davelms.medium.com/build-your-docker-images-automatically-when-pushing-new-code-to-github-394f4c1679cc
